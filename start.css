@@ -1,0 +1,157 @@
+.start-icon {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 980px;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease-out;
+    backface-visibility: hidden;
+    animation-name: transitionIn;
+    animation-iteration-count:initial;
+    animation-duration: 3s;
+    padding: 0%;
+    margin: 0%;
+
+  }
+ 
+
+@keyframes transitionIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.oven-1-icon{
+  position: relative;
+  width: 100%;
+}
+  .oven-1-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+  }
+  .logo-title-1-icon {
+    position: absolute;
+    top: 120px;
+    left: 145px;
+    
+    height: 172px;
+    object-fit: cover;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 68px;
+    left: 30px;
+    width: 430px;
+    height: 292px;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+  }
+  .pizza-dish-child {
+    position: absolute;
+    height: 71.9%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 28.1%;
+    left: 0;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gainsboro);
+  }
+  .pizza-name {
+    position: absolute;
+    height: 18.3%;
+    width: 86.36%;
+    top: 81.7%;
+    left: 7.27%;
+    display: inline-block;
+  }
+  .pizza-dish,
+  .pizza-dish1,
+  .pizza-dish2,
+  .rectangle-icon {
+    position: absolute;
+    top: 385px;
+    left: 30px;
+    width: 110px;
+    height: 153px;
+  }
+  .pizza-dish1,
+  .pizza-dish2,
+  .rectangle-icon {
+    top: 563px;
+  }
+  .pizza-dish2,
+  .rectangle-icon {
+    top: 741px;
+  }
+  .rectangle-icon {
+    height: 71.9%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 28.1%;
+    left: 0;
+    border-radius: var(--br-31xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pizza-dish6,
+  .pizza-dish7,
+  .pizza-dish8 {
+    position: absolute;
+    top: 385px;
+    left: 190px;
+    width: 110px;
+    height: 153px;
+  }
+  .pizza-dish7,
+  .pizza-dish8 {
+    top: 563px;
+  }
+  .pizza-dish8 {
+    top: 741px;
+  }
+  .pizza-dish10,
+  .pizza-dish11,
+  .pizza-dish9 {
+    position: absolute;
+    left: 350px;
+    width: 110px;
+    height: 153px;
+  }
+  .pizza-dish9 {
+    top: 385px;
+    cursor: pointer;
+  }
+  .pizza-dish10,
+  .pizza-dish11 {
+    top: 563px;
+  }
+  .pizza-dish11 {
+    top: 741px;
+  }
+  .main-menu {
+    width: 100%;
+    position:relative;
+    background-color: var(--color-burlywood);
+    height: 980px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+    display: flex;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  
